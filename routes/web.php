@@ -12,21 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('/index');
 });
 
-Route::get('/galerie', function () {
+Route::get('/public/galerie', function () {
     return view('galerie');
 });
-Route::get('/header', function () {
+Route::get('/public/header', function () {
     return view('header');
 });
-Route::get('/portfolio', function () {
+Route::get('/public/portfolio', function () {
     return view('portfolio');
 });
-Route::get('/contact', function () {
+Route::get('/public/contact', function () {
     return view('contact');
 });
-Route::get('/apropos', function () {
+Route::get('/public/about', function () {
     return view('apropos');
 });
