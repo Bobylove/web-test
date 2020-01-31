@@ -11,22 +11,22 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('galerie', function () {
+Route::get('public/galerie', function () {
     return view('galerie');
 });
-Route::get('header', function () {
+Route::get('public/header', function () {
     return view('header');
 });
-Route::get('portfolio', function () {
+Route::get('public/portfolio', function () {
     return view('portfolio');
 });
-Route::get('contact', function () {
+Route::get('public/contact', function () {
     return view('contact');
 });
-Route::get('about', function () {
+Route::get('public/apropos', function () {
     return view('apropos');
 });
