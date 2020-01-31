@@ -18,8 +18,9 @@
   <link rel="icon" type="image/png" href="favicon.ico" />
   <link href="css/freelancer.css" rel="stylesheet">
 </head>
-@yield('navBarTop')
 @yield('header')
+@yield('navBarTop')
+
 @yield('portfolio')
 
 <div class="preloader-wrapper active">
