@@ -1,4 +1,6 @@
+@extends('index')
 
+@section('navBarTop')
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
@@ -25,3 +27,4 @@
       </div>
     </div>
   </nav>
+  @stop

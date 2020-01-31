@@ -19,9 +19,7 @@
   <link href="css/freelancer.css" rel="stylesheet">
 </head>
 
-@include('navBarTop')
-@include('header')
-@include('portfolio')
+
 <div class="preloader-wrapper active">
   <div class="spinner-layer spinner-blue-only">
     <div class="circle-clipper left">
@@ -35,9 +33,12 @@
     </div>
   </div>
 </div>
-@include('apropos')
-@include('contact')
-@include('footer')
+@yield('navBarTop')
+@yield('header')
+@yield('portfolio')
+@yield('apropos')
+@yield('contact')
+@yield('footer')
 
 
 

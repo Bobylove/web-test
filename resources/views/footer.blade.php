@@ -1,3 +1,6 @@
+@extends('index')
+
+@section('footer')
  <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
@@ -76,3 +79,4 @@
     </div>
   </div>
 </div>
+@stop
