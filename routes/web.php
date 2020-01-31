@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('/index');
+    return view('../index');
 });
 
-Route::get('/public/galerie', function () {
+Route::get('galerie', function () {
     return view('galerie');
 });
 Route::get('/public/header', function () {
