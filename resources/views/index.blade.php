@@ -18,7 +18,9 @@
   <link rel="icon" type="image/png" href="favicon.ico" />
   <link href="css/freelancer.css" rel="stylesheet">
 </head>
-
+@yield('navBarTop')
+@yield('header')
+@yield('portfolio')
 
 <div class="preloader-wrapper active">
   <div class="spinner-layer spinner-blue-only">
@@ -33,9 +35,7 @@
     </div>
   </div>
 </div>
-@yield('navBarTop')
-@yield('header')
-@yield('portfolio')
+
 @yield('apropos')
 @yield('contact')
 @yield('footer')
