@@ -18,10 +18,12 @@
   <link rel="icon" type="image/png" href="favicon.ico" />
   <link href="css/freelancer.css" rel="stylesheet">
 </head>
-@yield('header')
-@yield('navBarTop')
 
-@yield('portfolio')
+@include('header')
+@include('navBarTop')
+
+
+
 
 <div class="preloader-wrapper active">
   <div class="spinner-layer spinner-blue-only">
@@ -36,10 +38,10 @@
     </div>
   </div>
 </div>
-
-@yield('apropos')
-@yield('contact')
-@yield('footer')
+@include('portfolio')
+@include('apropos')
+@include('contact')
+@include('footer')
 
 
 

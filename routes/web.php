@@ -29,4 +29,7 @@ Route::get('/contact', function () {
 });
 Route::get('/apropos', function () {
     return view('apropos');
-});
+
+});Route::get('/navBarTop', function () {
+    return view('navBarTop');
+
