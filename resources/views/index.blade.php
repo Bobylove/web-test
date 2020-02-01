@@ -1,27 +1,4 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Bobylove 
-Bobylove
-/
-nexus
-0
-01
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-nexus/resources/views/welcome.blade.php
- Etheyr daz
-fbe7a80 on 25 Sep 2017
-We found potential security vulnerabilities in your dependencies.
-Only the owner of this repository can see this message.
-
-246 lines (217 sloc)  8.8 KB
-  
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
   <meta charset="utf-8">
@@ -266,16 +243,3 @@ Only the owner of this repository can see this message.
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="{{ mix('js/app.js') }}"></script>
 </html>
-
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
