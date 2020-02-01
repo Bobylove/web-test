@@ -1,6 +1,4 @@
-@extends('index')
 
-@section('portfolio')
  <section class="page-section portfolio" id="portfolio">
   <div class="container">
 
@@ -343,4 +341,3 @@
     </div>
   </div>
 </div>
-@stop

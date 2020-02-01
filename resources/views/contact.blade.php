@@ -1,6 +1,3 @@
-@extends('index')
-
-@section('contact')
 
 <section class="page-section" id="contact">
   <div class="container">
@@ -63,4 +60,3 @@
     </div>
   </div>
 </section>
-@stop

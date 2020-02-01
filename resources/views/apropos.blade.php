@@ -1,6 +1,4 @@
-@extends('index')
 
-@section('apropos')
 
 <!-- About Section -->
 <section class="page-section bg-primary text-white mb-0" id="about">
@@ -30,4 +28,3 @@
 
   </div>
 </section>
-@stop
