@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/galerie', function () {
+/*Route::get('/galerie', function () {
     return view('galerie');
 });
 Route::get('/header', function () {
@@ -34,3 +34,4 @@ Route::get('/apropos', function () {
 Route::get('/navBarTop', function () {
     return view('navBarTop');
 });
+*/

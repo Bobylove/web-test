@@ -1,14 +1,3 @@
-@extends('index')
-
-@section('galerie')
-
-<!-- @include('navBarTop')
-<br>
-<br>
-<br>
- -->
-
-@include('navBarGalerie')
 
 <br>
 
@@ -358,4 +347,3 @@
 	<!-- Custom scripts for this template -->
 	<script src="js/freelancer.min.js"></script>
 
-@stop
